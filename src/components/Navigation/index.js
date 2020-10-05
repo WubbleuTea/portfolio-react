@@ -2,33 +2,27 @@ import React, { useEffect } from 'react';
 import { capitalizeFirstLetter } from "../../utils/helpers";
 
 function Navigation(props) {
-  // const {
-  //   categories = [],
-  //   setCurrentCategory,
-  //   currentCategory,
-  //   contactSelected,
-  //   setContactSelected
-  // } = props;
+  const {
+    categories = [],
+    setCurrentCategory,
+    currentCategory
+  } = props;
 
-  // useEffect(() => {
-  //   document.title = capitalizeFirstLetter(currentCategory.name);
-  // }, [currentCategory]);
+  useEffect(() => {
+    document.title = capitalizeFirstLetter(currentCategory.name);
+  }, [currentCategory]);
 
   return(
     <nav className='space-around'>
       <ul className="flex-row ">
-        <li>
-          <a href="#about">About</a>
-        </li>
-        <li>
-          <a href="#projects">Projects</a>
-        </li>
-        <li>
-          <a href="#contact">Contact</a>
-        </li>
-        <li>
-          <a href="#resume">Resume</a>     
-        </li>
+        {categories.map((category) => (
+          <li 
+            key={category.name}
+            className={currentCategory.name === category.name}
+          >
+            {currentCategory.name}
+          </li>
+        ))}
       </ul>
     </nav>
   );
