@@ -21,10 +21,13 @@ const Footer = () => {
             <a
               href={link.src}
               target="_blank"
+              rel="noopener noreferrer"
+              key={links.type}
             > 
               <img src=
                 {require(`../../assets/logos/${link.logo}`)}
                 alt={link.type}
+                className="logo"
                />
             </a>
         ))}

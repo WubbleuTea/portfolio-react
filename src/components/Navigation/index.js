@@ -15,27 +15,22 @@ function Navigation(props) {
   // }, [currentCategory]);
 
   return(
-    <header className="flex-row px-1">
-      <h2>
-        <a data-testid="link" href="/">
-          Joshua Weisbrod-Torres
-        </a>
-      </h2>
-      <ul>
-        <li href="#about">
-          About
+    <nav>
+      <ul className="flex-row">
+        <li>
+          <a className='space-around' href="#about">About</a>
         </li>
-        <li href="#projects">
-          Projects
+        <li>
+          <a href="#projects">Projects</a>
         </li>
-        <li href="#contact">
-          Contact
+        <li>
+          <a href="#contact">Contact</a>
         </li>
-        <li href="#resume">
-          Resume        
+        <li>
+          <a href="#resume">Resume</a>     
         </li>
       </ul>
-    </header>
+    </nav>
   );
 }
 
