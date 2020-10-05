@@ -48,8 +48,6 @@ body {
   letter-spacing: .1em;
   background: var(--primary);
   color: var(--light);
-  font-family: 'Poiret One', cursive;
-
 }
 
 h1,
@@ -102,6 +100,7 @@ a {
 	margin-left: -2px;
   margin-right: -2px;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 a:hover {
@@ -112,9 +111,6 @@ header {
   background-image: url('./assets/hero/background.jpeg');
 }
 
-.hero {
-  width: 100%;
-}
 .headshot {
   padding: 1vh;
   border-radius: 25px;
@@ -126,12 +122,15 @@ header {
 
 nav a {
   color: var(--light);
-  text-shadow: 2vh 2vh;
+  background-color: var(--dark);
   margin-right: auto;
 }
 
 nav a:hover {
   text-decoration: none;
+  color: var(--primary);
+  transition-duration: 500ms;
+  
 }
 
 button {
@@ -335,3 +334,12 @@ section {
   margin: 0;
 }
 
+.resume-title {
+  padding-bottom: 2vh;
+}
+
+.resume-pdf {
+  font-weight: bolder;
+  font-style: italic;
+  text-decoration: underline;
+}

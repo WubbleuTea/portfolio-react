@@ -15,10 +15,10 @@ function Navigation(props) {
   // }, [currentCategory]);
 
   return(
-    <nav>
-      <ul className="flex-row">
+    <nav className='space-around'>
+      <ul className="flex-row ">
         <li>
-          <a className='space-around' href="#about">About</a>
+          <a href="#about">About</a>
         </li>
         <li>
           <a href="#projects">Projects</a>
