@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/portfolio-react/static/css/main.ff98389d.chunk.css",
+    "main.js": "/portfolio-react/static/js/main.be773ddf.chunk.js",
+    "main.js.map": "/portfolio-react/static/js/main.be773ddf.chunk.js.map",
+    "runtime-main.js": "/portfolio-react/static/js/runtime-main.a4de92d3.js",
+    "runtime-main.js.map": "/portfolio-react/static/js/runtime-main.a4de92d3.js.map",
+    "static/js/2.e7ccd183.chunk.js": "/portfolio-react/static/js/2.e7ccd183.chunk.js",
+    "static/js/2.e7ccd183.chunk.js.map": "/portfolio-react/static/js/2.e7ccd183.chunk.js.map",
+    "index.html": "/portfolio-react/index.html",
+    "precache-manifest.a888f83429752bda5620d4054b157ddb.js": "/portfolio-react/precache-manifest.a888f83429752bda5620d4054b157ddb.js",
+    "service-worker.js": "/portfolio-react/service-worker.js",
+    "static/css/main.ff98389d.chunk.css.map": "/portfolio-react/static/css/main.ff98389d.chunk.css.map",
+    "static/js/2.e7ccd183.chunk.js.LICENSE.txt": "/portfolio-react/static/js/2.e7ccd183.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/portfolio-react/static/media/background.f4d2d160.jpeg",
+    "static/media/gitdevjob.png": "/portfolio-react/static/media/gitdevjob.4986dbdf.png",
+    "static/media/github_logo.png": "/portfolio-react/static/media/github_logo.fd7488b9.png",
+    "static/media/headshot.jpeg": "/portfolio-react/static/media/headshot.485d0461.jpeg",
+    "static/media/horiseon.PNG": "/portfolio-react/static/media/horiseon.bbcfcc14.PNG",
+    "static/media/linkedin_logo.png": "/portfolio-react/static/media/linkedin_logo.6e154f80.png",
+    "static/media/masked.PNG": "/portfolio-react/static/media/masked.1c0f3264.PNG",
+    "static/media/runbuddy.PNG": "/portfolio-react/static/media/runbuddy.9615bb85.PNG",
+    "static/media/weather-checker.PNG": "/portfolio-react/static/media/weather-checker.78f13764.PNG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a4de92d3.js",
+    "static/js/2.e7ccd183.chunk.js",
+    "static/css/main.ff98389d.chunk.css",
+    "static/js/main.be773ddf.chunk.js"
+  ]
+}
