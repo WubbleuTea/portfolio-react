@@ -108,12 +108,16 @@ header {
 }
 
 .headshot {
-  padding: 1vh;
+
   border-radius: 25px;
   width: 50vw;
   height: 45hw;
   border: groove 1vh var(--dark);
   box-shadow: 1vh 1vh;
+}
+
+.padding-T {
+  padding-top: 3vh;
 }
 
 nav a {
