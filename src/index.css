@@ -10,16 +10,11 @@ body {
   min-height: 100vh;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
 
 main {
 	margin: 0 auto;
-	max-width: 90%;
-  padding: 50px 30px;
+	max-width: 100%;
+  padding: 5vh 3vh;
 }
 :root {
   --primary: #4D6999;
@@ -109,6 +104,7 @@ a:hover {
 
 header {
   background-image: url('./assets/hero/background.jpeg');
+  text-align: center;
 }
 
 .headshot {
@@ -123,7 +119,6 @@ header {
 nav a {
   color: var(--light);
   background-color: var(--dark);
-  margin-right: auto;
 }
 
 nav a:hover {
@@ -167,9 +162,11 @@ form {
 }
 
 form div label {
-  color: var(--primary);
+  color: var(--tertiary);
   font-size: 5vh;
+  background-color: var(--opaque);
 }
+
 input {
   font-size: 1rem;
   padding: 0.25rem;
@@ -213,9 +210,6 @@ textarea {
   justify-content: space-between;
 }
 
-.space-around {
-  justify-content: space-around;
-}
 .space-between {
   justify-content: space-between;
 }
@@ -274,19 +268,6 @@ button {
 	padding: 10px 15px;	
 }
 
-/* a {
-	border-radius: 5px;
-	color: var(--primary);
-	font-weight: 600;
-	padding: 2px 4px;
-	margin-left: -2px;
-	margin-right: -2px;
-} */
-
-.navActive {
-  color: var(--secondary);
-}
-
 .logo {
   height: 15vh;
   width: 15vh;
@@ -342,4 +323,16 @@ section {
   font-weight: bolder;
   font-style: italic;
   text-decoration: underline;
+}
+
+.title {
+  background-color: var(--opaque);
+}
+
+header ul {
+  padding: 0 10vh
+}
+
+ul {
+  padding: 0
 }

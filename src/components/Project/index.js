@@ -35,7 +35,7 @@ function Project() {
   ]
 
   return (
-    <section className='flex-row container'>
+    <section className='flex-row'>
       <ul>
         {projects.map((project) => (
           <li className="flex-row project-container">

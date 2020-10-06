@@ -1,5 +1,4 @@
-import React, { useEffect } from 'react';
-import { capitalizeFirstLetter } from "../../utils/helpers";
+import React from 'react';
 
 function Navigation(props) {
   const {
@@ -8,19 +7,22 @@ function Navigation(props) {
     currentCategory
   } = props;
 
-  useEffect(() => {
-    document.title = capitalizeFirstLetter(currentCategory.name);
-  }, [currentCategory]);
-
   return(
-    <nav className='space-around'>
+    <nav className=''>
       <ul className="flex-row ">
         {categories.map((category) => (
           <li 
             key={category.name}
             className={currentCategory.name === category.name}
           >
-            {currentCategory.name}
+            <span onClick={() => {
+              setCurrentCategory(category);
+            }}
+            >
+            <button>
+              {category.name}
+            </button>
+            </span>
           </li>
         ))}
       </ul>

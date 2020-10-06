@@ -1,16 +1,12 @@
 import React from 'react';
-import Navigation from '../Navigation/index.js';
 
 function Header() {
   return (
-    <header className='flex-row'>
       <h2>
-        <a data-testid="link" href="/">
+        <a data-testid="link" href="/" className='title'>
           Joshua Weisbrod-Torres
         </a>
       </h2>
-      <Navigation />
-    </header>
   )
 }
 

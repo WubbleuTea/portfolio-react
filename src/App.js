@@ -6,6 +6,7 @@ import Header from './components/Header'
 import Project from './components/Project'
 import About from './components/About'
 import Resume from './components/Resume'
+import Navigation from './components/Navigation'
 
 function App() {
   const [categories] = useState([
@@ -23,14 +24,13 @@ function App() {
     },
   ])
   const [currentCategory, setCurrentCategory] = useState(categories[0])
-  const [contactSelected, setContactSelected] = useState(false);
   const renderPage = () => {
-    switch(currentCategory) {
+    switch(currentCategory.name) {
       case 'About':
          return <About />
       case 'Contact':
         return <ContactForm />
-      case 'Project':
+      case 'Projects':
         return <Project />
       case 'Resume':
           return <Resume />
@@ -40,9 +40,16 @@ function App() {
   };
   return (
     <body>
-        <Header />
+        <header>
+          <Header />
+          <Navigation 
+              categories={categories}
+              setCurrentCategory={setCurrentCategory}
+              currentCategory={currentCategory}
+            ></Navigation>
+          </header>
       <main>
-        {renderPage(currentCategory)}
+        {renderPage(currentCategory.name)}
       </main>
       <Footer />
     </body>
