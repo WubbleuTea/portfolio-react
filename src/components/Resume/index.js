@@ -49,7 +49,7 @@ function Resume() {
       <div className='resume-title'>
         <h3>Resume</h3>
           <a 
-            href='../../assets/resume/JoshuaWeisbrodTorres_Resume.pdf'
+            href='https://docs.google.com/document/d/1qH9AjY6xJ0bBZw3CkbmI_z98qNTq1jpBASrymPaRbng/edit?usp=sharing'
             className='resume-doc'
           >
             Download my resume.
