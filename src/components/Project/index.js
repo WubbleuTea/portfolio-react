@@ -6,7 +6,13 @@ function Project() {
       name: `MaskD: Post Pandemic Dating`,
       image: 'masked.PNG',
       technologies: 'JavaScript, HTML, CSS, WebAPIs',
-      github: 'https://joshuaweisbrodtorres.github.io/post-pandemic-dating/'
+      github: 'https://github.com/joshuaweisbrodtorres/post-pandemic-dating'
+    },
+    {
+      name: 'Movie Lot',
+      image: 'movielot.png',
+      technologies: 'MERN Stack',
+      github: 'https://github.com/tbreazier/final-countdown',
     },
     {
       name: 'gitDevJob',
@@ -18,19 +24,13 @@ function Project() {
       name: 'Weather Checker',
       image: 'weather-checker.PNG',
       technologies: 'HTML, CSS, JavaScript, MomentJS, OpenWeatherAPI',
-      github: 'https://joshuaweisbrodtorres.github.io/what-is-your-weather/',
+      github: 'https://github.com/joshuaweisbrodtorres/what-is-your-weather',
     },
     {
       name: 'Run Buddy',
       image: 'runbuddy.PNG',
       technologies: 'HTML, CSS',
-      github: 'https://joshuaweisbrodtorres.github.io/run-buddy/',
-    },
-    {
-      name: 'Horiseon',
-      image: 'horiseon.PNG',
-      technologies: 'HTML, CSS',
-      github: 'https://joshuaweisbrodtorres.github.io/01-horiseon-project/',
+      github: 'https://github.com/joshuaweisbrodtorres/run-buddy',
     },
   ]
 
